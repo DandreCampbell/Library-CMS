@@ -1,0 +1,66 @@
+Java Library Management System Project
+
+MySQL Table
+
+Parameters:
+  1. ID #
+  2. Book / Comic Name
+  3. Author
+  4. Genre
+
+Books
+  Genre:
+
+    Romance:
+      1. The Notebook - Nicholas Spark
+      2. 50 Shades of Grey - E.L. James
+      3. Outlander - Diana Gabaldon
+      4. The Fault in Our Stars - John Green
+      5. Pride and Prejudice - Jane Austen
+
+    Mystery:
+      1. The Woman in White - Wilkie Collins
+      2. Girl with the Dragon Tattoo - Stieg Larsson
+      3. The Silent Patient - Alex Michaelides
+      4. Angels and Demons - Dan Brown
+      5. Gone Girl - Gillian Flynn
+
+    Horror:
+      1. Frankenstein - Mary Shelley
+      2. Dracula - Bram Stoker
+      3. Carrie - Stephen King
+      4. IT - Stephen King
+      5. Hell House - Richard Matheson
+
+    Comics:
+      1. Avengers: Civil War - Mark Millar
+      2. House of M - Brian Bendis
+      3. The Killing Joke - Alan Moore
+      4. Old Man Logan - Jeff Lemire
+      5. Justice League The New 52 - Geoff Johns
+
+-----------------------------------------------------
+
+Interface
+  Title:
+    "Library Management System"
+
+  Buttons:
+    1. "Books Available"
+    2. "Add New Book"
+    3. "Check Out Book"
+    4. "Return Book"
+
+  What each button should do:
+      "Books Available"
+        - Show a list of all books in the database
+        - SQL: SELECT * FROM library_inventory
+
+  "Add New Book"
+    - A pop up input box that takes 4 parameters
+
+  "Check Out Book"
+    - A pop up input box that takes
+
+  "Return Book"
+    -
